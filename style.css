@@ -101,7 +101,9 @@ body {
     cursor: pointer;
 }
 
-.genericon-menu > span, .genericon-menu::before, .genericon-menu::after {
+.genericon-menu > span, 
+.genericon-menu::before, 
+.genericon-menu::after {
     display: block;
     width: 24px;
     height: 4px;
@@ -109,7 +111,8 @@ body {
     margin: 1px;
 }
 
-.genericon-menu::before, .genericon-menu::after {
+.genericon-menu::before, 
+.genericon-menu::after {
     content: "";
 }
 
@@ -932,4 +935,100 @@ a.category-link::after {
 }
 .col-r .info {
     padding: 30px;
+}
+
+.footer-content {
+    padding: 60px 60px 30px 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    /*background-color: black;*/
+}
+
+.footer-content > ul {
+    margin-bottom: 12px;
+    height: 24px;
+    list-style: none;
+}
+
+.logo-footer svg {
+    display: block;
+    width: 236px;
+    height: 36px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    fill: #f72210;
+}
+
+.copyright {
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 12px; 
+}
+
+.socials {
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.socials li:first-child {
+    margin-left: 0;
+}
+
+.socials li {
+    margin-left: 10px;
+    list-style: none;
+}
+
+.social-icon:active,
+.social-icon:link,
+.social-icon:visited {
+    line-height: 24px;
+    font-size: 26px;
+    text-align: center;
+    display: block;
+    font-family: "Genericons";
+    cursor: pointer;
+    color: #666;
+    outline-style: none;
+}
+
+.social-icon:hover {
+    text-decoration: none;
+    color: #3b5998;
+}
+
+.footer-links {
+    padding-top: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 15px;
+    color: #666;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    border-right: 1px rgb(217, 217, 217) solid; 
+    padding-right: 10px;
+    margin: 6px  10px 6px 0;
+}
+
+.info-footer a:link,
+.info-footer a:visited, 
+.info-footer a:active {
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+}
+
+.info-footer a:hover {
+    color: black;
+    text-decoration: none;
 }
