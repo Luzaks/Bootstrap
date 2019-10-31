@@ -12,9 +12,8 @@
     <title>Bootstrap</title>
 </head>
 <body>
-<div class="container">
-    <div id="sticky-container">
-        <div class="d-flex justify-content-between" id="sticky-red-nav">
+    <div class="fixed-top" id="sticky-container">
+        <div class="d-flex justify-content-between align-items-center" id="sticky-red-nav">
             <div class="p-2" id="paper-date">
                 <date id="date">
                     Wed, Oct 02, 2019
@@ -48,7 +47,7 @@
                         </g></svg>
         </div>
     </div>
-
+    <div class="container" id="padding-for-container">
     <nav class="header-bottom" id="white-nav">
         <ul class="page-nav">
             <li><a>U.S.</a></li>
@@ -70,7 +69,7 @@
     <main class="wrapper">
         <div class="content container-fluid">
             <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-4 order-2 order-md-1 first">
+                <div class="col-xl-3 col-lg-3 col-md-5 order-2 order-md-1 first">
                     <div class="title-featured">
                         FEATURED STORIES
                     </div>
@@ -189,7 +188,7 @@
                         </article>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-8 order-1 order-md-2 middle">
+                <div class="col-xl-6 col-lg-6 col-md-7 order-1 order-md-2 middle">
                     <div class="title-featured">
                         TOP STORY
                     </div>
@@ -662,7 +661,7 @@
                     <div class="content">
                         <div class="magazine-bottom">
                             <div class="flex-sm row top-row">
-                                <div class="flex-sm-3">
+                                <div class="flex-sm-3 d-flex flex-column justify-content-center">
                                     <div class="wrap">
                                         <div class="image">
                                             <a href="https://www.newsweek.com/2019/10/18/issue.html">
@@ -676,7 +675,7 @@
                                     <a class="category-link" href="https://www.newsweek.com/2019/10/18/issue.html">See All Features</a>
                                 </div>
                                 <div class="flex-sm-9">
-                                    <div class="magazine-top-row flex-xs d-flex">
+                                    <div class="magazine-top-row flex-xs d-flex border-bottom">
                                         <span class="icon-magazine"></span>
                                         IN THE MAGAZINE
                                     </div>
@@ -851,7 +850,7 @@
 
             </div>
             <div class="editors-pick">
-                <div class="row justify-content-center title-border container-fluid magazine-top-row">
+                <div class="row justify-content-center title-border container-fluid magazine-top-row border-bottom">
                     <span class="col-12 icon-magazine"></span>
                     EDITOR'S PICK
                 </div>
@@ -1004,8 +1003,8 @@
                     </div>
                 </div>
             </div>
-            <div class="slideshows">
-                <div class="row justify-content-center title-border container-fluid magazine-top-row">
+            <div class="slideshows border-bottom pb-4">
+                <div class="row justify-content-center title-border container-fluid magazine-top-row border-bottom">
                     <span class="col-12 icon-magazine"></span>
                     FEATURED SLIDESHOWS
                 </div>
@@ -1104,13 +1103,13 @@
                     </div>
                 </div>
             </div>
-            <div class="block block-nw nomobile">
+            <div class="block block-nw mt-4 nomobile">
                 <div class="content">
                     <div class="section-picks">
                         <div class="block-title2">
                             <a class="title2-anchor" href="https://www.newsweek.com/us">U.S.</a>
                         </div>
-                        <div class="row topp-row">
+                        <div class="row topp-row border-bottom">
                             <div class="col-sm-4">
                                 <article>
                                     <div class="picture d-flex">
@@ -1191,10 +1190,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="block-title2">
+                        <div class="block-title2 mt-4 mb-2">
                             <a class="title2-anchor" href="https://www.newsweek.com/world">WORLD</a>
                         </div>
-                        <div class="row topp-row">
+                        <div class="row topp-row border-bottom">
                             <div class="col-sm-4">
                                 <article>
                                     <div class="picture d-flex">
@@ -1275,10 +1274,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="block-title2">
+                        <div class="block-title2 mt-4 mb-2">
                             <a class="title2-anchor" href="https://www.newsweek.com/business">Bussines</a>
                         </div>
-                        <div class="row topp-row">
+                        <div class="row topp-row border-bottom">
                             <div class="col-sm-4">
                                 <article>
                                     <div class="picture d-flex">
@@ -1361,10 +1360,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="block-title2">
+                        <div class="block-title2 mt-4 mb-2">
                             <a class="title2-anchor" href="https://www.newsweek.com/tech-science">Tech & Science</a>
                         </div>
-                        <div class="row topp-row">
+                        <div class="row topp-row border-bottom">
                             <div class="col-sm-4">
                                 <article>
                                     <div class="picture d-flex">
@@ -1445,10 +1444,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="block-title2">
+                        <div class="block-title2 mt-4 mb-2">
                             <a class="title2-anchor" href="https://www.newsweek.com/culture">Culture</a>
                         </div>
-                        <div class="row topp-row">
+                        <div class="row topp-row border-bottom">
                             <div class="col-sm-4">
                                 <article>
                                     <div class="picture d-flex">
@@ -1529,10 +1528,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="block-title2">
+                        <div class="block-title2 mt-4 mb-2">
                             <a class="title2-anchor" href="https://www.newsweek.com/sports">Sports</a>
                         </div>
-                        <div class="row topp-row">
+                        <div class="row topp-row border-bottom">
                             <div class="col-sm-4">
                                 <article>
                                     <div class="picture d-flex">
@@ -1619,7 +1618,7 @@
 
                 </div>
             </div>
-            <div class="sub-news position-relative">
+            <div class="sub-news position-relative mt-5">
                 <div class=" flex-md row topp-row bottom-row">
                     <div class="col-lg-8 d-flex flex-column">
                         <div class="sb-title text-uppercase red">subscribe</div>
@@ -1644,7 +1643,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 col-lg-4 d-flex flex-column">
+                    <div class="col-xl-4 col-lg-4 col-md-12 d-flex flex-column">
                         <div class="sb-title text-uppercase red">newsletter</div>
                         <div Class="col-r f1 d-flex flex-row align-items-center">
                             <div class="fn lazyloaded" id="image-2" data-bg="https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&amp;h=265&amp;q=90&amp;f=172a044c08b5e64f42dcb61b425487bf" style="background: url(&quot;https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&amp;h=265&amp;q=90&amp;f=172a044c08b5e64f42dcb61b425487bf&quot;) center center / cover no-repeat;"></div>
@@ -1660,7 +1659,7 @@
             </div>
         </div>
     </main>
-    <footer class="footer-content">
+    <footer class="footer-content p-4">
         <div class="d-flex flex-column flex-md-row justify-content-md-between fr-footer align-items-md-end">
             <div class="d-flex flex-row align-items-end logo-footer">
                 <a href="https://www.newsweek.com/">
@@ -1701,7 +1700,7 @@
         </div>
         <div class="footer-links border-top">
             <div class="row">
-                <div class="links-menu col-md-7">
+                <div class="links-menu col-md-12">
                     <ul class="menu">
                         <li class="info-footer">
                             <a href="https://www.newsweek.com/about-newsweek">About Us</a>
