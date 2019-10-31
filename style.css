@@ -414,6 +414,13 @@ article {
     border-top: 0;
 }
 
+.img-more-stories {
+    float: left;
+    width: 135px;
+    margin-right: 15px;
+    clear: right;
+}
+
 #image {
     float: left;
     width: 135px;
@@ -1119,46 +1126,76 @@ a.category-link::after {
         width: 74px;
     }*/
 
-    .genericon-menu > span, .genericon-menu::before, .genericon-menu::after {
+    /*.genericon-menu > span, .genericon-menu::before, .genericon-menu::after {
         width: 30px;
     }
 
     .genericon-menu > span, .genericon-menu::before, .genericon-menu::after {
         width: 30px;
-    }
+    }*/
 
     #subscribe-anchor {
         margin-right: 50px;
     }
 }
 
-@media creen and (min-width: 768px) {
-    /*.culture-item {
-        width: 50%;
-    }
-
-    .top-row {
-        display: flex;
-        align-items: flex-end;
-        margin-left: -15px;
-        margin-right: -15px;
-    }
-
-    .col-md-6 {
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-
-    .col-md-4 {
-        -ms-flex: 0 0 33.333333%;
-        flex: 0 0 33.333333%;
-        max-width: 33.333333%;
-    }*/
-}
-
 @media screen and (max-width: 767px) {
+    #white-nav {
+        display: none;
+    }
 
+    #padding-for-container {
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    #sticky-red-nav {
+        padding: 0;
+    }
+
+    .logoimg {
+        width: 132px;
+        height: 20px;
+        left: 80px;
+        top: 15px;
+    }
+
+    #date {
+        display: none;
+    }
+
+    .genericon-menu > span,
+    .genericon-menu::before,
+    .genericon-menu::after {
+        width: 30px;
+        margin: 2px;
+    }
+
+    .genericon-menu > span,
+    .genericon-menu::before,
+    .genericon-menu::after {
+        width: 30px;
+    }
+    .wrapper {
+        padding: 0;
+    }
+
+    .picture > a {
+        width: 100%;
+    }
+
+    .culture-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .img-more-stories,
+    #image {
+        width: 258px;
+    }
+    #what > p {
+        padding-left: 278px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -1189,7 +1226,6 @@ a.category-link::after {
     }
 
     #sticky-red-nav {
-        box-sizing: border-box;
         padding: 0;
     }
 
