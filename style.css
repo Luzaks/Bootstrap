@@ -632,7 +632,7 @@ img {
 .culture-summ span a:link,
 .culture-summ span a:visited {
   padding: 5px;
-  background-color:#c2d4d7;
+  background-color: #c2d4d7;
   text-decoration: none;
   color: rgb(39, 39, 39);
   font-size: 13px;
@@ -1008,7 +1008,7 @@ a.category-link::after {
 }
 
 .col-r {
-  background-color:#f4f5f6;
+  background-color: #f4f5f6;
 }
 
 .col-r .info {
