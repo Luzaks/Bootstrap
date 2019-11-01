@@ -107,3 +107,7 @@ module.exports = {
     "value-list-max-empty-lines": 0,
   },
 }
+
+linters:
+  stylelint:
+    config: 'stylelint.config.js'
